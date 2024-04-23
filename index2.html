@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<h2>Greetings</h2>
+<div class="container">
+    <div class="inner">Hello</div>
+    <div class="inner">Goodbye</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    // A $( document ).ready() block.
+    $(document).ready(function () {
+        console.log("DCD No.1! I LOVE DCD!");
+    });
+//
+    $(document).ready(function () {
+        console.log("abcd");
+    });
+    //  A $(document).ready block.
+    $(document).ready(abc);
+
+    function abc(){
+        console.log("ready!");
+        $( ".inner" ).before( "<p>Test</p>" );
+    }
+
+</script>
+</body>
+
+</html>

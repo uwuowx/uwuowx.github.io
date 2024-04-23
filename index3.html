@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addClass</title>
+    <style type="text/css">
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<p class="red">RED</p>
+<p id="w" class="red">WHITE</p>
+<p id="g">GREEN</p>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script>
+    $(function () {
+        $("p").last().addClass("green");
+        $("p").odd().removeClass("red");
+    })
+
+</script>
+
+</body>
+</html>
